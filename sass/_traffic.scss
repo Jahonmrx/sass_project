@@ -1,0 +1,50 @@
+.traffic{
+    padding-bottom: 180px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+}
+.t_left_tepa{
+    margin-bottom: 32px;
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        width: 686px;
+        margin-bottom: 24px;
+    }
+    p{
+        font-weight: 400;
+        font-size: $font_size_small;
+        width: 733px;
+    }
+}
+.t_left_cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    gap: 24px;
+}
+.t_left_card{
+    display: grid;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    p{
+        font-weight: 400;
+        font-size: $font_size_default;
+        width: 306px;
+    }
+}
+.t_right{
+    position: absolute;
+    right: -119px;
+    top: -50px;
+    overflow: hidden;
+}

@@ -1,0 +1,57 @@
+.features{
+    .container{
+        display: grid;
+        flex-direction: column;
+        gap: 130px;
+        margin-bottom: 112px;
+    }
+}
+.f_yozuv{
+    text-align: center;
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        max-width: 815px;
+        margin: 0 auto;
+    }
+    p{
+        font-weight: 400;
+        width: 1000px;
+        font-size: $font_size_small;
+        color: $color_gray;
+        margin: 0 auto;
+    }
+}
+.f_cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.f_card{
+    text-align: start;
+    padding: 24px;
+    display: grid;
+    gap: 24px;
+    h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    p{
+        width: 357px;
+        font-weight: 400;
+        font-size: $font_size_small;
+    }
+}
+.f_card:hover{
+    box-shadow: 1px 5px 10px gray;  
+    transition-duration: 0.2s;
+}
+.orqa_fon{
+    width: 80px;    
+    height: 80px;
+    border-radius: 50%;
+    background-color: $color_blue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

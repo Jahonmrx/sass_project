@@ -1,0 +1,23 @@
+.impretions{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 112px 0;
+        margin-bottom: 112px;
+    }
+    h2{
+        font-family: 'Space Grotesk', sans-serif;
+        color: $color_black;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .natija{
+        display: grid;
+        text-align: center;
+        gap: 16px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 500;
+    }
+}

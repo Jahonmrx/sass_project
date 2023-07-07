@@ -1,0 +1,65 @@
+.testimon{
+    padding: 96px 0;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+}
+.tes_back{
+    background: var(--foundation-blue-b-20, #F5F9FF);
+    padding: 48px 80px 48px 160px;
+}
+.tes_left{
+    img{
+        position: absolute;
+        bottom: -30px;
+        left: 30px;
+    }
+}
+.tes_right{
+    display: grid;
+    gap: 48px;
+    p{
+        font-weight: 400;
+        font-size: $font_size_default;
+        width: 705px;
+        color: var(--505056, #505056);
+    }
+}
+.tes_right_pas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.pas_chap{
+    display: grid;
+    gap: 10px;
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    img{
+        width: 156.84px;
+        height: 30.35px;
+    }
+}
+.arrows{
+    display: flex;
+    gap: 16px;
+}
+.chap_arrow{
+    img{
+        transform: rotate(180deg);
+        color: #66A3FF;
+    }
+    cursor: pointer;
+}
+.ong_arrow{
+    cursor: pointer;
+}
+.chap_arrow, .ong_arrow:hover{
+    opacity: 0.5;
+}
